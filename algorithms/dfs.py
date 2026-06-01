@@ -1,21 +1,3 @@
-"""
-Busca em Profundidade (DFS - Depth-First Search)
-=================================================
-Implemente o algoritmo DFS para o 8-puzzle.
-
-Propriedades esperadas:
-  - Completo: não (pode entrar em ciclos sem controle de visitados)
-  - Ótimo: não
-  - Complexidade de tempo: O(b^m)
-  - Complexidade de espaço: O(b*m)  ← vantagem sobre BFS
-
-Dicas:
-  - Use uma pilha LIFO (list ou collections.deque com appendleft) como fronteira.
-  - Use um limite de profundidade (depth_limit) para evitar loops infinitos.
-  - Considere controle de visitados por ramo (não globalmente) para manter
-    a propriedade de espaço linear.
-"""
-
 from puzzle.base_search import BaseSearch
 from puzzle.state import State
 from puzzle.result import SearchResult
