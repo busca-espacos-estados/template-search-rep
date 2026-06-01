@@ -34,9 +34,3 @@
 └── main.py
 ```
 
-## Como executar os testes
-
-```bash
-pip install pytest
-pytest
-```
